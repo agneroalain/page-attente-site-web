@@ -1,0 +1,33 @@
+@import url("chat.css");
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.page{
+    position: absolute;
+    height: 100vh;
+    width:100vw;
+    color: white;
+    font-size: larger;
+    background-color: rgba(221, 32, 32, 0.733);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.page *{
+    margin: 30px;
+}
+iframe {
+    position: absolute;
+    top: -100px;
+    left: -180px;
+    width: 120%;
+    height: 120%;
+    pointer-events: none;
+    transform-origin: 25%;
+}
